@@ -102,6 +102,8 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.12.3-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.12.3-x86_64-linux)
+      racc (~> 1.4)
     pg (1.2.3)
     public_suffix (4.0.6)
     puma (5.3.1)
@@ -199,6 +201,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap (= 1.7.2)
@@ -215,7 +218,6 @@ DEPENDENCIES
   spring (= 2.1.1)
   sqlite3 (= 1.4.2)
   turbolinks (= 5.2.1)
-  tzinfo-data
   web-console (= 4.1.0)
   webdrivers (= 4.6.0)
   webpacker (= 5.4.0)
